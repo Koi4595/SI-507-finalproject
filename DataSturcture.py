@@ -2,8 +2,8 @@ import flickrapi
 import json
 import requests
 
-api_key = 'c2d834ecbe14197d2d21bcb0e473a2e1'
-api_secret = 'cb9eebb9aac6ac51'
+api_key = ''
+api_secret = ''
 flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')
 
 keywords = ['food', 'recipe', 'cooking', 'cuisine','yogurt'
