@@ -10,6 +10,7 @@ Flickr's API can be requested through their developer platform very quickly, and
 
 Data format：
 All the data through the Flickr API real-time crawling, through the introduction of Python in the Flickr package to achieve (detailed code see Datastructure.py) and through the json package will crawl the Cache stored in the local JSON file, named food_photo_description.json, and then Clean.py to clean the crawled JSON data (remove /www and other information that may interfere with the judgment), named cleaned_food_descriptio.json, this file is the data source we use in the application.
+I removed my APIkey information in the version I uploaded to Github for data security reasons, but they should be available in the version I uploaded to Canvas
 
 Summary of data: 
 This dataset is the information uploaded and shared by users through Flickr real-time crawling, in crawling by introducing the keywords related to food (e.g., food, meal, dinner, etc.), to retrieve the latest information of the platform, and for each keyword, we select the relevant 50 pieces of information on each page as the data source, which includes the variables of photo_id, photo_title ,photo_title, photo_description, and the Region information calculated by the latitude and longitude information.
